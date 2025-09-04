@@ -60,6 +60,7 @@ npm start
 ### 🎥 Demo Video
 
 📌 Watch the full demo in Given video
+- https://drive.google.com/file/d/11jLejtXKfUCXn8vT0OVu6fvr7EfnRtkn/view?usp=sharing
 
 ## ✨ Features
 - 📌 **Mood Logging** – Quickly log your daily mood (Happy, Sad, Anxious, Excited, etc.)  
