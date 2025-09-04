@@ -86,21 +86,36 @@ npm start
 
 ### 🔄 Workflow Diagram
 
+### 🔄 Workflow Diagram
+
+### Workflow Diagram
+
+### Workflow Diagram
+
 ```mermaid
 flowchart TD
-    A[User Login/Signup] --> B[Select Daily Mood + Notes]
+    A[User Login / Signup] --> B[Select Mood or Get Suggestions]
     B --> C[Store Data in MongoDB]
-    C --> D[Dashboard with Charts & Stats]
-    D --> E[Suggestions Generated]
+    C --> D[Home Screen]
+
+    %% Voice & Vision Inputs
+    D --> V1[Voice Command Mood Tracker - e.g. I am sad]
+    D --> V2[Mood Detection using OpenCV]
+
+    %% Suggestions
+    V1 --> E[Suggestions Generated]
+    V2 --> E[Suggestions Generated]
+
+
     E --> E1[User-based Suggestions]
     E --> E2[ML-based Suggestions]
     E --> E3[Gemini-based Suggestions]
-    E3 --> F[Detailed Explanation by Gemini]
-    E2 --> F[Detailed Explanation by Gemini]
-    E1 --> F[Detailed Explanation by Gemini]
-```
 
----
+    %% Detailed Explanations
+    E1 --> F[Detailed Explanation by Gemini]
+    E2 --> F[Detailed Explanation by Gemini]
+    E3 --> F[Detailed Explanation by Gemini]
+```
 
 ### 👨‍💻 Made with 💗 by  
 **Dishant**, **Tushar**, and **Sakshee**
