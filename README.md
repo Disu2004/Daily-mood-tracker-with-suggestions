@@ -94,7 +94,7 @@ npm start
 
 ```mermaid
 flowchart TD
-    A[User Login / Signup] --> B[Select Mood or Get Suggestions]
+    A[User Login / Signup] --> B[User adds their preffered suggestions based on a particular mood]
     B --> C[Store Data in MongoDB]
     C --> D[Home Screen]
 
