@@ -86,12 +86,6 @@ npm start
 
 ### 🔄 Workflow Diagram
 
-### 🔄 Workflow Diagram
-
-### Workflow Diagram
-
-### Workflow Diagram
-
 ```mermaid
 flowchart TD
     A[User Login / Signup] --> B[User adds their preffered suggestions based on a particular mood]
