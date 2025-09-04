@@ -1,0 +1,112 @@
+# 📔 Daily Mood Tracker with Suggestions
+
+A web application that helps users **track their daily mood**, **analyze emotional patterns**, and receive **personalized suggestions** for self-improvement and mental well-being.  
+
+---
+
+## ✨ Features
+- 📌 **Mood Logging** – Quickly log your daily mood (Happy, Sad, Anxious, Excited, etc.)  
+- 📊 **Visual Trends** – View charts and graphs of your mood patterns over time  
+- 🎯 **Personalized Suggestions** – Get tips, motivational quotes, activities, or relaxation techniques based on your mood  
+- 📝 **Daily Notes** – Add custom notes or reflections for each mood entry  
+- 🔒 **User Authentication** – Secure login and registration system  
+- 🔄 **Responsive Design** – Works on desktop, tablet, and mobile  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB  
+- **Authentication:** JWT (JSON Web Tokens)  
+- **Styling:** CSS3 / Bootstrap / Tailwind (based on setup)  
+- **Charts & Graphs:** Chart.js / Recharts  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following installed:  
+- [Node.js](https://nodejs.org/) (v16+)  
+- [MongoDB](https://www.mongodb.com/) (local or Atlas)  
+- [Git](https://git-scm.com/)  
+
+---
+
+### 🔧 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/Daily-mood-tracker-with-suggestions.git
+   cd Daily-mood-tracker-with-suggestions
+2. **Install frontend dependencies**
+
+npm install
+npm start
+
+3. **Backend setup**
+
+cd backend
+npm install
+npm start
+
+4. **Open your browser and navigate to:**
+👉 http://localhost:3000 (frontend)
+👉 http://localhost:5000 (backend API)
+
+### 🎥 Demo Video
+
+📌 Watch the full demo in Given video
+
+## ✨ Features
+- 📌 **Mood Logging** – Quickly log your daily mood (Happy, Sad, Anxious, Excited, etc.)  
+- 📊 **Visual Trends** – View charts and graphs of your mood patterns over time  
+- 🎯 **Three Types of Suggestions**  
+  - **User-based** → predefined wellness tips for different moods  
+  - **ML-based** → machine learning–driven recommendations  
+  - **Gemini-based** → AI-powered suggestions with detailed explanations  
+- 🖱️ **Interactive Suggestions** – When the user clicks on any suggestion, **Gemini provides an in-depth explanation** (e.g., why a suggestion is useful, benefits, and practical steps)  
+- 📝 **Daily Notes** – Add custom notes or reflections for each mood entry  
+- 🔒 **User Authentication** – Secure login and registration system  
+- 🔄 **Responsive Design** – Works on desktop, tablet, and mobile  
+## 💡 How It Works
+
+1. The user **logs in / signs up** securely.  
+2. Each day, the user **selects their mood** (e.g., Happy, Sad, Stressed, Excited) and can optionally add notes.  
+3. The mood entry is stored in **MongoDB** for tracking and future analysis.  
+4. A **dashboard** displays mood history with charts and statistics, helping the user identify emotional patterns over time.  
+5. The system provides **three categories of suggestions**:
+   - **User-based Suggestions** → predefined wellness tips and activities tailored to the selected mood.  
+   - **ML-based Suggestions** → machine learning models recommend actions based on mood–activity patterns.  
+   - **Gemini-based Suggestions** → AI-powered insights offering motivational quotes, mindfulness practices, and lifestyle tips.  
+6. When the user **clicks on any suggestion**, Gemini **explains it in detail**, providing context, benefits, and actionable steps.  
+
+---
+
+### 🔄 Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[User Login/Signup] --> B[Select Daily Mood + Notes]
+    B --> C[Store Data in MongoDB]
+    C --> D[Dashboard with Charts & Stats]
+    D --> E[Suggestions Generated]
+    E --> E1[User-based Suggestions]
+    E --> E2[ML-based Suggestions]
+    E --> E3[Gemini-based Suggestions]
+    E3 --> F[Detailed Explanation by Gemini]
+    E2 --> F[Detailed Explanation by Gemini]
+    E1 --> F[Detailed Explanation by Gemini]
+```
+
+---
+
+### 👨‍💻 Made with 💗 by  
+**Dishant**, **Tushar**, and **Sakshee**
+
+---
+
+© 2025 Daily Mood Tracker with Suggestions. All rights reserved.
+
+
