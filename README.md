@@ -6,21 +6,23 @@ A web application that helps users **track their daily mood**, **analyze emotion
 
 ## ✨ Features
 - 📌 **Mood Logging** – Quickly log your daily mood (Happy, Sad, Anxious, Excited, etc.)  
-- 📊 **Visual Trends** – View charts and graphs of your mood patterns over time  
-- 🎯 **Personalized Suggestions** – Get tips, motivational quotes, activities, or relaxation techniques based on your mood  
-- 📝 **Daily Notes** – Add custom notes or reflections for each mood entry  
+- 🎤 **Voice Command Mood Tracking** – Speak your mood (e.g., "I am sad") and the system will detect it  
+- 📷 **Camera-based Mood Detection** – Detect mood automatically using OpenCV facial expression recognition  
+- 🎯 **Smart Suggestions** – Get personalized suggestions (activities, quotes, relaxation techniques)  
+- 🤖 **Gemini-powered Explanations** – Click any suggestion to get a **detailed explanation powered by Gemini API**  
 - 🔒 **User Authentication** – Secure login and registration system  
-- 🔄 **Responsive Design** – Works on desktop, tablet, and mobile  
+- 🔄 **Responsive Design** – Works seamlessly across devices  
 
 ---
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js  
 - **Backend:** Node.js + Express  
-- **Database:** MongoDB  
-- **Authentication:** JWT (JSON Web Tokens)  
-- **Styling:** CSS3 / Bootstrap / Tailwind (based on setup)  
-- **Charts & Graphs:** Chart.js / Recharts  
+- **Database:** MongoDB 
+- **Styling:** CSS3   
+- **AI & ML:** OpenCV (mood detection), Gemini API (detailed suggestions)  
+
+---
 
 ---
 
