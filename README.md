@@ -40,7 +40,7 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/Daily-mood-tracker-with-suggestions.git
+   git clone https://github.com/Disu2004/Daily-mood-tracker-with-suggestions
    cd Daily-mood-tracker-with-suggestions
 2. **Install frontend dependencies**
 
